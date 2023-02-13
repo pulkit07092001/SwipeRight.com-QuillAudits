@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  position: sticky;
+  display: flex;
+}
+.container {
+  margin: 30px;
+  width: 80vh;
+  border-radius: 5px;
+  border: 0.5px solid purple;
+}
+
+.login {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.username {
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 30px;
+  background-color: purple;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.option {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.logout {
+  cursor: pointer;
+  padding: 2px;
+  margin: 2px;
+}
+.card {
+  border-top: 1px solid purple;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.postImg {
+  object-fit: contain;
+}

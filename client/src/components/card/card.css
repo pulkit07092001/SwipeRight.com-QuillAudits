@@ -1,0 +1,43 @@
+.card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.postImg {
+  height: 80%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.interaction {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.cardIcon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.infoIcon {
+  position: absolute;
+  right: 0;
+  width: 12px;
+  height: 12px;
+}
